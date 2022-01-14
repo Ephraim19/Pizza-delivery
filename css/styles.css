@@ -1,0 +1,23 @@
+.heading h1 {
+    text-align: center;
+    color:brown;
+    
+}
+
+.heading h4 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.size p {
+    margin-left: 12%;
+    font-weight: 900;
+    font-size: 18;
+}
+
+.size img {
+    width: 30%;
+    height: auto;
+  
+    margin-left: 12%;
+}

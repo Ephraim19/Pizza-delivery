@@ -42,6 +42,25 @@
 .crust form {
   float: right;
   padding: 5%;
-  margin-right: 20%;
+  margin-right: 30%;
+  font-weight: bolder;
+}
+
+.top p {
+  margin-left: 12%;
+  font-weight: 900;
+  font-size: 18;
+}
+
+.top img {
+  width: 30%;
+  height: auto;
+  margin-left: 12%;
+}
+
+.top form {
+  float: right;
+  padding: 5%;
+  margin-right: 30%;
   font-weight: bolder;
 }

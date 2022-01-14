@@ -1,23 +1,47 @@
 .heading h1 {
-    text-align: center;
-    color:brown;
-    
+  text-align: center;
+  color: brown;
 }
 
 .heading h4 {
-    text-align: center;
-    color: blueviolet;
+  text-align: center;
+  color: blueviolet;
 }
 
 .size p {
-    margin-left: 12%;
-    font-weight: 900;
-    font-size: 18;
+  margin-left: 12%;
+  font-weight: 900;
+  font-size: 18;
 }
 
 .size img {
-    width: 30%;
-    height: auto;
-  
-    margin-left: 12%;
+  width: 30%;
+  height: auto;
+  margin-left: 12%;
+}
+
+.size form {
+  float: right;
+  padding: 5%;
+  margin-right: 30%;
+  font-weight: bolder;
+}
+
+.crust p {
+  margin-left: 12%;
+  font-weight: 900;
+  font-size: 18;
+}
+
+.crust img {
+  width: 30%;
+  height: auto;
+  margin-left: 12%;
+}
+
+.crust form {
+  float: right;
+  padding: 5%;
+  margin-right: 20%;
+  font-weight: bolder;
 }

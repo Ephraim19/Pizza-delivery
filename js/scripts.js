@@ -63,3 +63,4 @@ function submittedValues(event) {
   document.getElementById("totalAmount").innerHTML = totalAmount;
 
 }
+

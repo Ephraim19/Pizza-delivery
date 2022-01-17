@@ -40,7 +40,7 @@ function submittedValues(event) {
   } else if (myAmount.crusts === "cracker") {
     myCrust = 120;
   } else {
-    mySize = 80;
+    myCrust = 80;
   }
   console.log(myCrust);
 
@@ -52,4 +52,11 @@ function submittedValues(event) {
     myTop = 100;
   }
   console.log(myTop);
+
+  if (myAmount.delivers === true){
+    var totalAmount = myCrust +mySize + myTop + 100
+  } else {
+      totalAmount -= 100
+  }
+  console.log(totalAmount)
 }

@@ -81,3 +81,10 @@ input[type="button"] {
   color: white;
   border: 1px solid rgb(9, 42, 190);
 }
+
+
+.total p {
+  margin-left: 12%;
+  font-weight: 900;
+  font-size: 18;
+}

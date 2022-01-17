@@ -4,7 +4,7 @@
 ## Description
 This is a webpage that you can order pizza and it gets delivered to you. 
 ## Setup/Installation requirements
-* git clone https://github.com/Ephraim19/Day-Calculator.git
+* git clone ephraim19.github.io/pizza-delivery/
 * open the index.html file on your browser
 ## Technologies used
 Html

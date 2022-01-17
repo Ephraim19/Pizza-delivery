@@ -16,20 +16,14 @@ function submittedValues(event) {
   document.getElementById("crust").innerHTML = crust;
   document.getElementById("top").innerHTML = top;
 
-  var sizes = {
-    large: 800,
-    medium: 600,
-    small: 400,
-  };
-  var crust = {
-    stuffed: 150,
-    cracker: 120,
-    thin: 80,
-  };
 
-  var tops = {
-    pepperoni: 150,
-    sausage: 150,
-    mushroom: 100,
-  };
+  function amounts(sizes, crusts, tops, amounts,delivers ) {
+    this.sizes = sizes;
+    this.crusts = crusts;
+    this.tops = tops;
+    this.amounts = amounts;
+    this.delivers = delivers;
+  }
+  const myAmount = new amounts(size,crust,top,amount,deliver)
+  console.log(myAmount)
 }

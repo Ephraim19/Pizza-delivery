@@ -10,9 +10,26 @@ function submittedValues(event) {
   var top = document.querySelector('input[name="top"]:checked').value;
   var deliver = document.getElementById("deliver").checked;
 
-  var total = document.getElementById("total")
+  var total = document.getElementById("total");
   total.style.display = "block";
+  document.getElementById("size").innerHTML = size;
+  document.getElementById("crust").innerHTML = crust;
+  document.getElementById("top").innerHTML = top;
 
-  console.log(total);
+  var sizes = {
+    large: 800,
+    medium: 600,
+    small: 400,
+  };
+  var crust = {
+    stuffed: 150,
+    cracker: 120,
+    thin: 80,
+  };
+
+  var tops = {
+    pepperoni: 150,
+    sausage: 150,
+    mushroom: 100,
+  };
 }
-

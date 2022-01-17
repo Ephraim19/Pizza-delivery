@@ -22,8 +22,8 @@
 
 .size form {
   float: right;
-  padding: 5%;
-  margin-right: 25%;
+  padding: 2%;
+  margin-right: 5%;
   font-weight: bolder;
 }
 
@@ -41,8 +41,8 @@
 
 .crust form {
   float: right;
-  padding: 5%;
-  margin-right: 25%;
+  padding: 2%;
+  margin-right: 5%;
   font-weight: bolder;
 }
 
@@ -66,10 +66,10 @@
 }
 
 .amount form {
-  margin-left: 12%;
+  margin-left: 2%;
   font-weight: 900;
   font-size: 18;
-  padding: 5px;
+  padding: 2px;
 }
 
 input[type="button"] {

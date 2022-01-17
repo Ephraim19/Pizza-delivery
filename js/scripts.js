@@ -64,3 +64,9 @@ function submittedValues(event) {
 
 }
 
+$(document).ready(function () {
+    $("#confirmButton").click(function () {
+      alert("Your order will be delivered")
+    });
+  });
+

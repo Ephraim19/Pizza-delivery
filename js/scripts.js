@@ -59,4 +59,7 @@ function submittedValues(event) {
       totalAmount -= 100
   }
   console.log(totalAmount)
+  document.getElementById("amounted").innerHTML = myCrust +mySize + myTop;
+  document.getElementById("totalAmount").innerHTML = totalAmount;
+
 }

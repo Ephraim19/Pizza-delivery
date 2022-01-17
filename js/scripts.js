@@ -16,14 +16,40 @@ function submittedValues(event) {
   document.getElementById("crust").innerHTML = crust;
   document.getElementById("top").innerHTML = top;
 
-
-  function amounts(sizes, crusts, tops, amounts,delivers ) {
+  function amounts(sizes, crusts, tops, amounts, delivers) {
     this.sizes = sizes;
     this.crusts = crusts;
     this.tops = tops;
     this.amounts = amounts;
     this.delivers = delivers;
   }
-  const myAmount = new amounts(size,crust,top,amount,deliver)
-  console.log(myAmount)
+  const myAmount = new amounts(size, crust, top, amount, deliver);
+  console.log(myAmount);
+
+  if (myAmount.sizes === "large") {
+    var mySize = 800;
+  } else if (myAmount.sizes === "medium") {
+    mySize = 600;
+  } else {
+    mySize = 400;
+  }
+  console.log(mySize);
+
+  if (myAmount.crusts === "stuffed") {
+    var myCrust = 150;
+  } else if (myAmount.crusts === "cracker") {
+    myCrust = 120;
+  } else {
+    mySize = 80;
+  }
+  console.log(myCrust);
+
+  if (myAmount.tops === "pepperoni") {
+    var myTop = 150;
+  } else if (myAmount.tops === "sausage") {
+    myTop = 150;
+  } else {
+    myTop = 100;
+  }
+  console.log(myTop);
 }

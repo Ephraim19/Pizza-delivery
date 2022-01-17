@@ -54,13 +54,16 @@ function submittedValues(event) {
   console.log(myTop);
 
   if (myAmount.delivers === true){
-    var totalAmount = myCrust +mySize + myTop + 100
+    var totalAmount = (myCrust +mySize + myTop) * amount + 100
   } else {
       totalAmount -= 100
   }
   console.log(totalAmount)
-  document.getElementById("amounted").innerHTML = myCrust +mySize + myTop;
+  document.getElementById("amounted").innerHTML = (myCrust +mySize + myTop) * amount;
   document.getElementById("totalAmount").innerHTML = totalAmount;
+
+  window.scrollTo(0,1000);
+
 
 }
 

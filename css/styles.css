@@ -83,7 +83,11 @@ input[type="button"] {
 }
 
 
-.total p {
+#total {
+  display: none;
+}
+
+#total p {
   margin-left: 12%;
   font-weight: 900;
   font-size: 18;

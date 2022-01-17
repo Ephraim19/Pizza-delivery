@@ -10,5 +10,9 @@ function submittedValues(event) {
   var top = document.querySelector('input[name="top"]:checked').value;
   var deliver = document.getElementById("deliver").checked;
 
-  console.log(size,crust,top,amount,deliver);
+  var total = document.getElementById("total")
+  total.style.display = "block";
+
+  console.log(total);
 }
+

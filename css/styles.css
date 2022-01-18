@@ -1,3 +1,9 @@
+.heading {
+  padding: 1em;
+  background-color: rgba(207, 8, 8, 0.185);
+  font-weight: bolder;
+}
+
 .heading h1 {
   text-align: center;
   color: brown;
@@ -70,6 +76,7 @@
   font-weight: 900;
   font-size: 18;
   padding: 2px;
+  margin-left: 12%;
 }
 
 input[type="button"] {
@@ -96,7 +103,7 @@ input[type="button"] {
 #total form {
   float: right;
   padding: 5%;
-  margin-right: 20%;
+  margin-right: 50%;
   font-weight: bolder;
 }
 
@@ -114,4 +121,12 @@ select {
   padding: 15px;
   margin: 8px;
   border: 1px solid rgb(190, 9, 93);
+}
+
+.footer {
+  padding: 1em;
+  background-color: brown;
+  color: beige;
+  text-align: center;
+  font-weight: bolder;
 }

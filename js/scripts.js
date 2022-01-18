@@ -10,6 +10,8 @@ function submittedValues(event) {
   var top = document.querySelector('input[name="top"]:checked').value;
   var deliver = document.getElementById("deliver").checked;
 
+  
+
   var total = document.getElementById("total");
   total.style.display = "block";
   document.getElementById("size").innerHTML = size;
@@ -55,12 +57,17 @@ function submittedValues(event) {
 
   if (myAmount.delivers === true){
     var totalAmount = (myCrust +mySize + myTop) * amount + 100
+    var delivering = 100
   } else {
-      totalAmount -= 100
+      totalAmount = (myCrust +mySize + myTop) * amount
+      delivering = 0
   }
+  
   console.log(totalAmount)
   document.getElementById("amounted").innerHTML = (myCrust +mySize + myTop) * amount;
   document.getElementById("totalAmount").innerHTML = totalAmount;
+  document.getElementById("delivering").innerHTML = delivering;
+
 
   window.scrollTo(0,1000);
 

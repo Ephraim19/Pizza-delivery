@@ -62,6 +62,7 @@
   width: 30%;
   height: auto;
   margin-left: 12%;
+  margin-bottom: 2%;
 }
 
 .top form {
@@ -92,6 +93,7 @@ input[type="button"] {
 
 #total {
   display: none;
+  background-color: burlywood;
 }
 
 #total p {
@@ -127,4 +129,10 @@ select {
   color: beige;
   text-align: center;
   font-weight: bolder;
+}
+
+#total h3 {
+  color: blueviolet;
+  margin-left: 10%;
+  padding-top: 5%;
 }

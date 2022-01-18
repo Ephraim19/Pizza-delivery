@@ -101,9 +101,7 @@ input[type="button"] {
 }
 
 #total form {
-  float: right;
-  padding: 5%;
-  margin-right: 50%;
+  margin-left: 10%;
   font-weight: bolder;
 }
 
